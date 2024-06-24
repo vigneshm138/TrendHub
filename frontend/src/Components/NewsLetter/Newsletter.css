@@ -1,0 +1,50 @@
+.newLetter {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 40px 0;
+}
+.newLetter h2 {
+  text-transform: uppercase;
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+.newLetter p {
+  margin: 5px 0 20px 0;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+/* .newLetter div{
+    display: flex;
+} */
+.newLetter input {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+.newLetter input::placeholder {
+  text-transform: capitalize;
+}
+.newLetter button {
+  height: 40px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: orange;
+  border: 1px solid orange;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.3s linear;
+  font-weight: 600;
+}
+.newLetter button:hover {
+  background-color: #F5F5F5
+}
