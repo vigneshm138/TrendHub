@@ -1,5 +1,5 @@
 import React from "react";
-import './Popular.css'
+import "./Popular.css";
 import { pMenItem } from "../Assets/popularSec";
 import Item from "../Item/Item";
 

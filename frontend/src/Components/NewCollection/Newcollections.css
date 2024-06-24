@@ -1,16 +1,16 @@
-.popular {
+.newCollections {
   max-width: 1200px;
   padding: 24px 15px;
   margin: auto;
   margin-top: 20px 0;
 }
-.popular .popular-items {
+.newCollections .newCollections-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   gap: 40px;
 }
-.popular h3 {
+.newCollections h3 {
   font-size: 23px;
   text-transform: uppercase;
   margin: 30px 0;
