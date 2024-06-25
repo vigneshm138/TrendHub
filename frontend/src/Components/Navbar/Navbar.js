@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { BsCart } from "react-icons/bs";

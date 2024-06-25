@@ -1,0 +1,100 @@
+.product-display {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+.product-display p {
+  margin: 18px 0;
+}
+.product-display .productDisplay-Images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.product-display .productDisplay-mainImg {
+  max-width: 500px;
+  height: 400px;
+  box-shadow: rgba(9, 30, 66, 0.103) 0px 1px 1px,
+    rgba(9, 30, 66, 0.11) 0px 0px 1px 1px;
+  border-radius: 3px;
+}
+.product-display .productDisplay-mainImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product-display .productDisplay-subImgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 450px;
+  box-shadow: rgba(9, 30, 66, 0.103) 0px 1px 1px,
+    rgba(9, 30, 66, 0.11) 0px 0px 1px 1px;
+  padding: 5px;
+  margin: 20px 0;
+  padding-bottom: 0;
+  gap: 20px;
+}
+.product-display .productDisplay-subImgs .productDisplay-subImg img {
+  width: fit-content;
+  height: 100px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.product-display .productDisplay-subImgs .productDisplay-subImg img:hover {
+  opacity: 0.7;
+}
+.product-display .productDisplay-details {
+  max-width: 450px;
+  width: 100%;
+  box-shadow: rgba(9, 30, 66, 0.103) 0px 1px 1px,
+    rgba(9, 30, 66, 0.11) 0px 0px 1px 1px;
+  padding: 10px 13px;
+  border-radius: 4px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-display .productDisplay-details h3 {
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: grey;
+}
+.product-display .productDisplay-details .productDisDet-price {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+.product-display .productDisplay-details .productDisDet-rating {
+  background-color: yellowgreen;
+  padding: 4px 10px;
+  border-radius: 20px;
+  width: fit-content;
+  color: white;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.product-display .productDisplay-details .productDisDet-rating span {
+  margin-right: 4px;
+}
+.product-display .productDisplay-details .productDisDet-deliveryFee {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  padding: 4px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.438);
+}
+.product-display .productDisplay-details .productDisDet-cartBtn button {
+  padding: 4px 15px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

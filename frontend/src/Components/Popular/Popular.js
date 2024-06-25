@@ -3,6 +3,7 @@ import "./Popular.css";
 import { pMenItem } from "../Assets/popularSec";
 import Item from "../Item/Item";
 
+
 const Popular = () => {
   return (
     <div className="popular">
@@ -10,12 +11,12 @@ const Popular = () => {
 
       <div className="popular-items">
         {pMenItem.map((item) => (
-          <Item
-            img={item.img}
-            proName={item.proName}
-            proPrice={item.proPrice}
-            oldPrice={item.oldPrice}
-          />
+            <Item
+              img={item.img}
+              proName={item.proName}
+              proPrice={item.proPrice}
+              oldPrice={item.oldPrice}
+            />
         ))}
       </div>
     </div>

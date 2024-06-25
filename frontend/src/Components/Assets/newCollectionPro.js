@@ -1,4 +1,3 @@
-// ORANGE ABSTRACT PRINT CO-ORD SET SHORTS1,3792,299
 
 import newCol1 from "./newColl1.webp";
 import newCol2 from "./newColl2.webp";

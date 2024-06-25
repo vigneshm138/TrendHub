@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-banner-para">
           <h4>new arrivals only</h4>
           <p>🔥new collections for everyone🔥</p>
-          <NavLink to={"/mens"}>Check out</NavLink>
+          <NavLink to={"/men"}>Check out</NavLink>
         </div>
       </div>
     </div>
